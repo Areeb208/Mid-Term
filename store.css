@@ -14,8 +14,9 @@ body {
 }
 
 .h2 {
-    margin-top: 3rem;
-    margin-left: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 
 .black {
