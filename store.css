@@ -60,7 +60,7 @@ body {
 .boxes:hover {
     cursor: pointer;
     transform: scale(1.01);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     font-weight: bold;
 }
 
