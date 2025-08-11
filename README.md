@@ -2,3 +2,5 @@
 BQ project for Mid Term
 Made the Navbar.
 completed the background and the page.
+Fixed Bugs
+Worked on the homepage and about page.

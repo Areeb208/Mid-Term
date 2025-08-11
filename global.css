@@ -1,4 +1,4 @@
-/* Page 
+/* Page */
 * {
     margin: 0%;
     padding: 0%;
@@ -25,7 +25,7 @@ body {
     flex-direction: column;
 }
 
-/* Navbar 
+/* Navbar */
 
 .navbar {
     display: flex;
@@ -71,78 +71,4 @@ body {
     color: var(--color-secondary);
     font-weight: bold;
     transition: 0.2s;
-}
-
-/* Background / Page / Buttons */
-
-.head1 {
-    font-size: 25px;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.head3 {
-    font-size: 25px;
-    text-align: center;
-    margin-top: 0.3rem;
-}
-
-.btn-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 1rem;
-}
-
-.btn {
-    font-family:var(--font-primary);
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    margin: 0 5px;
-    padding: 10px 15px;
-    border-radius: 999px;
-    font-size: 16px;
-    cursor: pointer;
-    border: 2px solid transparent;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-}
-
-.btn.filled {
-    width: 120px;
-    background-color: #0078d4; 
-    color: white;
-}
-
-.btn.filled:hover {
-    background-color: #0188e9;
-}
-
-.btn.outlined {
-    width: 50px;
-    background-color: transparent;
-    color: #0078d4;
-    border-color: #0078d4;
-}
-
-.btn.outlined:hover {
-    background-color: #0078d4; 
-    color: white;
-}
-
-/* Mac Image */
-
-.header {
-    padding-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.macbook-img {
-    margin-top: 3rem;
-    max-width: 350px;
-    width: 100%;
-    height: auto;
 }
