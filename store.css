@@ -38,11 +38,11 @@ body {
 
 .boxes {
     width: 200px;
-    height: 200px; /* perfect square */
+    height: 200px;
     display: flex;
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: center; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     border-radius: 20px;
     padding: 8px;
     text-align: center;
@@ -69,38 +69,60 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    margin: 2rem;
-    border: 1px solid black;
+    margin: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .box {
-    width: 300px;
-    flex-shrink: 0;
-    align-items: center;
-    border: 1px solid blue;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     border-radius: 20px;
     padding: 20px;
-    padding-bottom: 25rem;
-    text-align: center;
     margin: 1rem;
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    font-size: 25px;
+    font-weight: bold;
+    transition: transform 0.5s ease, box-shadow 0.5s ease, font-weight 0.3s;
+}
 
+.box img {
+    flex-grow: 1;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .box:first-child {
-    background: linear-gradient(to bottom right, rgba(188, 217, 245, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background-color: black;
+    color: white;
 }
 
-.box:nth-child(2) {
-    background: linear-gradient(to bottom, rgb(255, 208, 208) 0%, rgba(255, 255, 255, 1) 100%);
+.box:nth-child(3) {
+    background: rgba(222, 182, 255, 0.6);
+}
+
+.box:nth-child(5) {
+    background: rgba(188, 217, 245, 0.6);
+
 }
 
 .box:last-child {
-    background: linear-gradient(to bottom left, rgb(216, 255, 208) 0%, rgba(255, 255, 255, 1) 100%);
+    background: rgba(197, 197, 197, 0.6);
 }
+
+.box-title {
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
 
 .box:hover {
     cursor: pointer;
-    transform: scale(1.02);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
