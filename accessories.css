@@ -1,33 +1,30 @@
-/* Page */
+/* General Page */
 body {
   min-height: 100vh;
   margin: 0;
   background: rgba(243, 243, 243, 0.7);
   display: flex;
   flex-direction: column;
+  font-family: "Poppins", sans-serif;
 }
 
 .header {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
   text-align: center;
   font-size: 25px;
 }
 
 .h2 {
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 22px;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 22px;
 }
 
-
-/* Big Display Boxes */
-
+/* Product Display */
 .container {
   display: flex;
   justify-content: center;
   margin: 1rem;
-  margin-top: 1rem;
   flex-wrap: wrap;
 }
 
@@ -45,7 +42,7 @@ body {
   font-weight: bold;
   background-color: rgba(230, 228, 228, 0.4);
   color: black;
-  transition: transform 0.5s ease, box-shadow 0.5s ease, font-weight 0.3s;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 .box img {
@@ -54,13 +51,9 @@ body {
   object-fit: contain;
 }
 
-.box-text {
-  padding: 10px;
-}
-
-
 .box-title {
-  margin: 0;
+  margin: 10px 0 0;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -69,13 +62,6 @@ body {
   font-size: 16px;
   font-weight: normal;
 }
-
-.box-title {
-  padding-top: 10px;
-  padding-left: 10px;
-
-}
-
 
 .box:hover {
   cursor: pointer;
