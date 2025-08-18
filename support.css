@@ -1,4 +1,4 @@
-/* Support Page */
+/* Page */
 .support-hero {
     text-align: center;
     padding: 4rem 2rem;
@@ -24,6 +24,7 @@
     padding: 2rem;
     text-align: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -147,6 +148,7 @@
     padding: 2rem;
     border-radius: 16px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
